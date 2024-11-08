@@ -42,6 +42,7 @@ border-radius: 30px;
     color: white;
     width: 178px;
     height: 42px;
+    font-weight: bolder;
     border-radius: 10px;
     transition: background .3s ease-in, color .3s ease-in;
 }
@@ -98,7 +99,38 @@ background-position: center;
     border-radius: 20px;
 }
 
+/*----------cards-----------*/
+
+.card_general{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.card_1{
+    background-color:rgba(242, 230, 223, 1);
+    color:rgba(7, 15, 38, 1);
+    border-radius: 10px;
+}
+
+.card_text{
+    padding: 1rem;
+}
+
+.card_img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
 /*---------footer---------*/
+
+.div_general_del_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    line-height: 2rem;
+}
 
 .footer_de_la_pagina{
     display: flex;
@@ -111,4 +143,9 @@ background-position: center;
 .personas_del_footer{
 display: flex;
 flex-direction: column;
+gap: 30px;
+}
+
+h2{
+    font-weight: bolder;
 }
