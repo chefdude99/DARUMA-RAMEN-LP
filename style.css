@@ -44,14 +44,7 @@ border-radius: 30px;
     height: 42px;
     font-weight: bolder;
     border-radius: 10px;
-    transition: background .3s ease-in, color .3s ease-in;
 }
-
-.navbar__nav__button:hover{
-background-color: red;
-color:black;
-}
-
 
 /*-----------Jumbotron------------*/
 
@@ -118,9 +111,28 @@ background-position: center;
     line-height: 2rem;
 }
 
-.card_img{
+.card_img_1{
     border-radius: 10px 10px 0 0;
-    width: 100%;
+    width: 400px;
+    height: 200px;
+}
+.card_img_2{
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+    height: 200px;
+    object-fit:cover;
+}
+.card_img_3{
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+    height: 200px;
+    object-fit:cover;
+}
+.card_img_4{
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+    height: 200px;
+    object-fit:cover;
 }
 
 .card_precio{
