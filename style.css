@@ -1,0 +1,192 @@
+/*Seteo de estilos*/
+* {
+   box-sizing: border-box;
+   margin: unset;
+   padding: unset;
+   border: unset;
+   outline: unset; 
+   list-style: none;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight: 400;
+}
+
+body{
+    background-color: rgba(7, 15, 38, 1);
+}
+
+/*---------- Navbar---------*/
+
+.navbar{
+    color: white;
+    padding: 20px 30px;
+}
+
+.navbar__nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(242, 230, 223, 0.1);
+padding: 10px 15px;
+border-radius: 30px;
+}
+
+.navbar__nav__list {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.navbar__nav__button{
+    background-color: rgba(217, 126, 106, 1);
+    color: white;
+    width: 178px;
+    height: 42px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+/*-----------Jumbotron------------*/
+
+.jumbotrom h1 {
+padding: 80px 0;
+text-align: center;
+font-size: 3.75rem;
+font-weight: 700;
+background-image: url(/assets/foto\ de\ fondo\ Jumbo.jpg);
+background-size: cover;
+background-position: center;
+}
+
+/*------------Seccion de informacion-------*/
+
+.seccion_de_informacion{
+    display: flex;
+    gap: 50px;
+    color: white;
+    padding: 30px;
+}
+
+.seccion_de_informacion img {
+    object-fit: cover;
+}
+
+.imagen_vertical{
+   width: 30%;
+   height: 685px;
+   border-radius: 20px;
+}
+.imghori_y_texto {
+    width: 70%;
+}
+
+.imghori_y_texto p{
+    font-size: 13.12rem;
+    padding: 30px;
+    text-align: center;
+}
+
+.imghori_y_texto img {
+    width: 100%;
+    height: 306px;
+    border-radius: 20px;
+}
+
+/*----------cards-----------*/
+
+.card_general{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.card_1{
+    background-color:rgba(242, 230, 223, 1);
+    color:rgba(7, 15, 38, 1);
+    border-radius: 10px;
+}
+
+.card_text{
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+.card_img_1{
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+    height: 200px;
+}
+.card_img_2{
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+    height: 200px;
+    object-fit:cover;
+}
+.card_img_3{
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+    height: 200px;
+    object-fit:cover;
+}
+.card_img_4{
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+    height: 200px;
+    object-fit:cover;
+}
+
+.card_precio{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.card_button{
+    height: 45px;
+    width: 100%;
+    background-color: rgba(217, 126, 106, 1);
+    border-radius: 0 0 10px 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+.card_button:hover{
+    background-color: rgba(229, 82, 50, 1);
+    color: white;
+    transition: 0.5s;
+    
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*---------footer---------*/
+
+.div_general_del_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.footer_de_la_pagina{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 30px;
+    gap: 350px;
+}
+
+.personas_del_footer{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+h2{
+    font-weight: bolder;
+}
